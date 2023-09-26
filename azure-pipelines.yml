@@ -1,7 +1,5 @@
 pool: MyAgentPool
-- task: DotNetCoreCLI@2
-  inputs:
-    command: 'build'
+- task: AdvancedSecurity-Dependency-Scanning@1
 steps:
 - bash: echo hello world
 - task: DotNetCoreCLI@2
