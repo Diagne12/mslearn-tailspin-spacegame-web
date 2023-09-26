@@ -5,3 +5,4 @@ steps:
 - task: DotNetCoreCLI@2
   inputs:
     command: 'build'
+    
